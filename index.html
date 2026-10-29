@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprout&Click - Consultoría Tecnológica Ecológica</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="lienzo-principal">
+      <header>
+        <div class="marca">
+          <div class="circulo-logo">
+            <img src="S&C.png" alt="Logo Sprout&Click" />
+          </div>
+          <h1>Sprout&Click</h1>
+        </div>
+
+        <nav>
+          <a href="#inicio">Inicio</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#video">Video</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </header>
+
+      <div class="seccion-banner">
+        <img
+          src="Banner S&C.jpeg"
+          alt="Banner Sprout&Click"
+          class="imagen-banner"
+        />
+      </div>
+
+      <main class="contenido-principal" id="inicio">
+        <h2>Consultoría Tecnológica Ecológica</h2>
+        <p class="descripcion-empresa">
+          Reducimos la huella de carbono de tus servidores y desarrollamos
+          software de alto rendimiento impulsado por energía solar limpia.
+        </p>
+        <a href="#contacto" class="boton-asesoria">Solicitar Asesoría</a>
+
+        <hr class="linea-carrusel" />
+
+        <div class="visor-carrusel">
+          <div class="pista-carrusel">
+            <div class="slide">
+              <img src="Imagen 1.jpeg" alt="Servidores Solares" />
+            </div>
+            <div class="slide">
+              <img src="Imagen 2.webp" alt="Software Ecológico" />
+            </div>
+            <div class="slide">
+              <img src="imagen 3.jpeg" alt="Auditoría de Carbono" />
+            </div>
+            <div class="slide">
+              <img src="Imagen 1.jpeg" alt="Servidores Solares" />
+            </div>
+            <div class="slide">
+              <img src="Imagen 2.webp" alt="Software Ecológico" />
+            </div>
+            <div class="slide">
+              <img src="imagen 3.jpeg" alt="Auditoría de Carbono" />
+            </div>
+          </div>
+        </div>
+
+        <hr class="linea-carrusel" />
+      </main>
+
+      <section class="seccion-servicios" id="servicios">
+        <h3 class="titulo-seccion">Nuestros Servicios</h3>
+
+        <div class="lista-servicios">
+          <div class="item-servicio">
+            <div class="icono-servicio">🖥️</div>
+            <div class="detalle-servicio">
+              <h4>Servidores Solares de Cero Emisiones</h4>
+              <p>
+                Alojamiento e infraestructura conectada a sistemas de energía
+                fotovoltaica para operaciones continuas y descarbonizadas.
+              </p>
+            </div>
+          </div>
+
+          <div class="item-servicio">
+            <div class="icono-servicio">🌱</div>
+            <div class="detalle-servicio">
+              <h4>Ingeniería de Software Verde</h4>
+              <p>
+                Optimización y refactorización de código para reducir el consumo
+                innecesario de CPU, memoria y energía en centros de datos.
+              </p>
+            </div>
+          </div>
+
+          <div class="item-servicio">
+            <div class="icono-servicio">📊</div>
+            <div class="detalle-servicio">
+              <h4>Auditoría y Diagnóstico de Huella Digital</h4>
+              <p>
+                Medición precisa del CO2 generado por tus plataformas web y
+                trazado de rutas técnicas para alcanzar la neutralidad
+                climática.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="seccion-video" id="video">
+        <h3 class="titulo-seccion">Conoce Nuestro Impacto</h3>
+        <div class="contenedor-video">
+          <!-- Coloca tu video con el nombre "video.mp4" en tu carpeta -->
+          <video controls poster="Banner S&C.jpeg" class="video-reproductor">
+            <source src="video.mp4" type="video/mp4" />
+            Tu navegador no soporta la reproducción de video HTML5.
+          </video>
+        </div>
+      </section>
+      <section class="seccion-contacto" id="contacto">
+        <h3>Contáctanos</h3>
+        <form action="#">
+          <div class="campo">
+            <label for="nombre">Nombre o Empresa:</label>
+            <input
+              type="text"
+              id="nombre"
+              placeholder="Tu nombre..."
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="email">Correo Electrónico:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="correo@ejemplo.com"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="mensaje">¿Cómo podemos ayudarte?:</label>
+            <textarea
+              id="mensaje"
+              rows="4"
+              placeholder="Escribe tu consulta sobre servidores o software..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+        </form>
+      </section>
+      <footer>
+        <p>&copy; 2026 Sprout&Click - Consultoría Verde y Servidores Solares</p>
+      </footer>
+    </div>
+  </body>
+</html>
